@@ -99,9 +99,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':"u528062626_momoda",
-        'USER': 'u528062626_momoda',
-        'PASSWORD': "Vr7&h;Q^e",
-        'HOST': "sql992.main-hosting.eu",
+        'USER': 'b75e4e396b33df',
+        'PASSWORD': "300fbded",
+        'HOST': "us-cdbr-east-06.cleardb.net",
         'PORT': '3306',
 
     }}
