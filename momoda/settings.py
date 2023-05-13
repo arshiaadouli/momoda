@@ -35,7 +35,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#^^xx&y*(*i5y_@)6+%4p-9%8-7$@%h%8u+o%^tqpf(1w28_m)'
 
 # SECURITY WARNING: don't run with debug turned on in production!dsad
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -187,3 +187,7 @@ DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap4.html"
 STATIC_ROOT=os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS=(os.path.join(BASE_DIR, 'static'),)
 django_heroku.settings(locals())
+
+# import dj_database_url
+# db_from_env = dj_database_url.config(conn_max_age=600)
+# DATABASES['default'].update(db_from_env)
