@@ -15,7 +15,7 @@ import pandas
 from plotly.offline import plot
 import plotly.graph_objects as go
 
-@login_required
+# @login_required
 def search_chemicals(request):
     if request.method == 'POST':
         query = request.POST.get('query')
@@ -75,7 +75,7 @@ def search_chemicals(request):
 
     return render(request, "chemicals/search.html", context)
 
-@login_required
+# @login_required
 def add_chemical(request):
 
     form = SearchForm(request.POST or None)
@@ -152,7 +152,7 @@ def add_chemical(request):
 
     return render(request, "chemicals/add.html", context)
 
-@login_required
+# @login_required
 def chemical_details(request, pk):
 
     test = InChi.objects.get(id=pk).getInventory.all()
