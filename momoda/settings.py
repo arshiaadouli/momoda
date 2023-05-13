@@ -35,7 +35,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#^^xx&y*(*i5y_@)6+%4p-9%8-7$@%h%8u+o%^tqpf(1w28_m)'
 
 # SECURITY WARNING: don't run with debug turned on in production!dsad
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -102,7 +102,7 @@ DATABASES = {
         'USER': 'u528062626_momoda',
         'PASSWORD': "Vr7&h;Q^e",
         'HOST': "sql992.main-hosting.eu",
-        'PORT': 3306,
+        'PORT': '3306',
 
     }}
 
